@@ -1,0 +1,55 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+hr {
+	margin: 10px;
+	height: 2px;
+	border-width: 0;
+	border-style: solid;
+	background-color: #61a2a9;
+	color: #61a2a9;
+	text-align: center;
+}
+
+::-webkit-scrollbar {
+	width: 0px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+	background: black;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+	background: white;
+}
+
+/*------------ Hover i menyn & footer -------------*/
+
+.hoverLine::after {
+	content: "";
+	display: block;
+	width: 0%;
+	height: 2px;
+	background-color: #61a2a9;
+	transition: 300ms;
+}
+
+.hoverLine:hover::after {
+	width: 100%;
+}
+
+@font-face {
+	font-family: "Chopsic";
+	src: url("Chopsic-K6Dp.ttf");
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap");

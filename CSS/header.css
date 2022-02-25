@@ -1,0 +1,137 @@
+body.active {
+	overflow: hidden; /* Koden gör så att man inte kan scrolla när hamburgar menyn är altiverad*/
+}
+
+header {
+	position: fixed; /* Headers position kommer alltid att vara detsamma*/
+	transition: 400ms;
+	width: 100%;
+	z-index: 1; /* Allt i headern hamnar ovanför allt annat innehåll*/
+	background-color: #30043d;
+	padding: 21px;
+}
+
+.logo a {
+	font-family: "Chopsic" !important;
+	font-size: 1.7rem !important;
+	user-select: none;
+}
+
+.screenLogo-NavButton {
+	display: none;
+	justify-content: space-between;
+	background-color: #30043d;
+	font-family: "Chopsic" !important;
+	transition: 300ms;
+	padding: 15px;
+}
+
+.screenLogo-NavButton ul {
+	padding: 0;
+}
+
+.screenLogo a {
+	display: none;
+	text-align: center;
+	font-size: 1.5rem;
+	color: white;
+	text-decoration: none;
+	/*margin: 1rem;*/
+}
+
+.screenLogo li {
+	list-style: none;
+}
+
+.navButton {
+	transition: 300ms;
+	cursor: pointer;
+	/*margin-right: 1rem;*/
+}
+
+.navButton span {
+	display: none;
+	width: 20px;
+	height: 2px;
+	background-color: white;
+	margin: 6px 0;
+}
+
+.navigationLinks a {
+	text-decoration: none;
+	font-size: 1.25rem;
+	transition: 200ms;
+	color: white;
+	font-family: "Montserrat", sans-serif;
+	font-weight: 600;
+}
+
+.navigationLinks li {
+	list-style: none;
+}
+
+.navigationLinks ul {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	padding: 0;
+	width: 100%;
+}
+
+.hamburgerNav {
+	display: none;
+	justify-content: left;
+	position: fixed;
+	z-index: 1;
+	background-color: black;
+	top: 0%;
+	right: 0%;
+	width: 100%;
+	height: 100%;
+	transition: 500ms;
+}
+
+.hamburgerNav a {
+	color: white;
+	font-family: "Montserrat", sans-serif;
+	text-decoration: none;
+	font-weight: 600;
+	transition: 500ms;
+}
+
+.hamburgerNav a:hover {
+	color: #1e3643;
+}
+
+.hamburgerNavContent ul {
+	display: block;
+	margin-top: 2rem;
+}
+
+.hamburgerNavContent li {
+	font-size: 1.4em;
+	list-style: none;
+	padding: 20px;
+}
+
+.hamburgerNav ul {
+	padding: 5px;
+}
+
+/*------------ Knappen för att stänga av sidnaven -------------*/
+.closeButton {
+	font-size: 1.4em;
+	cursor: pointer;
+	color: white;
+	text-align: right;
+	position: absolute;
+	top: 3%;
+	right: 6.5%;
+}
+
+/*-------------- Sidans innehåll ---------------*/
+.images img {
+	display: flex;
+	justify-content: space-evenly;
+	width: 100%;
+}

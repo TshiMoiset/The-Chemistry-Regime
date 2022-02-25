@@ -1,0 +1,29 @@
+@media screen and (max-width: 769px) {
+	header {
+		padding: 0;
+	}
+
+	.navButton span {
+		display: flex;
+		width: 20px;
+		height: 2px;
+	}
+
+	.screenLogo a {
+		display: flex;
+	}
+
+	.navigationLinks {
+		display: none;
+	}
+
+	.hamburgerNav {
+		border-left: #61a2a9 solid 1px;
+	}
+
+	.screenLogo-NavButton {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+}
