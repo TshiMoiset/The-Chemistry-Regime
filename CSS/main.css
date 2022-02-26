@@ -3,8 +3,10 @@
 }
 
 .heroImg {
-	margin: 0 auto;
-	max-width: 1500px;
+	min-height: 70vh;
+	width: 100%;
+	position: relative;
+	background-color: #660569;
 }
 
 .heroImg img {
@@ -15,6 +17,7 @@
 .heroImgText {
 	text-align: center;
 	position: absolute;
+	display: flex;
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
@@ -24,10 +27,13 @@
 
 .Image-Container {
 	display: flex;
-	justify-content: space-evenly;
 	text-align: center;
+	position: relative;
+	top: -7rem;
+	padding: 20px;
+	width: 90%;
+	left: 5%;
 	background-color: white;
-	padding-top: -6rem !important;
 }
 
 .Image-Container img {
