@@ -39,7 +39,7 @@ hr {
 	display: block;
 	width: 0%;
 	height: 2px;
-	background-color: #61a2a9;
+	background-color: #660569;
 	transition: 300ms;
 }
 
@@ -48,8 +48,6 @@ hr {
 }
 
 @font-face {
-	font-family: "Chopsic";
-	src: url("Chopsic-K6Dp.ttf");
+	font-family: "Faux";
+	src: url("../FauxOmniglot-5DLZ.ttf");
 }
-
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap");
