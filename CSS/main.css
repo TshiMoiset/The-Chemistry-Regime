@@ -23,6 +23,7 @@
 	transform: translate(-50%, -50%);
 	color: white;
 	font-size: 30px;
+	font-family: "Faux";
 }
 
 .Image-Container {
@@ -58,4 +59,12 @@
 .titleText {
 	font-size: smaller;
 	color: gray;
+}
+
+.history h1 {
+	color: black;
+	text-align: center;
+	top: -5rem;
+	position: relative;
+	font-family: "Faux";
 }
