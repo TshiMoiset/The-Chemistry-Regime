@@ -14,23 +14,13 @@ hr {
 	height: 2px;
 	border-width: 0;
 	border-style: solid;
-	background-color: #61a2a9;
-	color: #61a2a9;
+	background-color: #660569;
+	color: #660569;
 	text-align: center;
 }
 
 ::-webkit-scrollbar {
 	width: 0px;
-}
-
-/* Track */
-::-webkit-scrollbar-track {
-	background: black;
-}
-
-/* Handle */
-::-webkit-scrollbar-thumb {
-	background: white;
 }
 
 /*------------ Hover i menyn & footer -------------*/

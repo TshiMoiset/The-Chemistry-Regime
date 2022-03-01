@@ -61,10 +61,32 @@
 	color: gray;
 }
 
+.pageContent2 {
+	background-color: #660569;
+	margin: 5rem;
+	position: relative;
+	top: -4rem;
+}
+
 .history h1 {
 	color: black;
 	text-align: center;
 	top: -5rem;
 	position: relative;
 	font-family: "Faux";
+}
+
+.historyContainer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 80%;
+	padding: 20px;
+	/*padding: 0rem 3rem 0rem 3rem;*/
+}
+
+.historyMap img {
+	width: 30rem;
+	height: auto;
+	padding: 10px;
 }
