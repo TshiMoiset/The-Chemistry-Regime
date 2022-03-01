@@ -49,3 +49,9 @@ window.onscroll = function () {
 
     scrollUp = scrollDown;
 }
+
+
+/*----------- Election ---------------*/
+function openElectionResults() {
+    document.getElementById("realFooter").style.bottom = "0%";
+}

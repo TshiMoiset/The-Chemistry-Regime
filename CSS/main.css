@@ -65,28 +65,90 @@
 	background-color: #660569;
 	margin: 5rem;
 	position: relative;
-	top: -4rem;
+	top: -10rem;
+	border-radius: 40px;
 }
 
 .history h1 {
-	color: black;
 	text-align: center;
-	top: -5rem;
-	position: relative;
+	padding: 20px;
+	color: white;
 	font-family: "Faux";
 }
 
 .historyContainer {
 	display: flex;
-	justify-content: center;
+	justify-content: space-evenly;
 	align-items: center;
-	width: 80%;
+	width: 100%;
 	padding: 20px;
+
 	/*padding: 0rem 3rem 0rem 3rem;*/
+}
+
+.historyText,
+.electionText,
+.electionText2 {
+	color: white;
+	font-family: "Faux";
+	letter-spacing: 1px;
+}
+
+.historyText p {
+	padding: 30px;
 }
 
 .historyMap img {
 	width: 30rem;
 	height: auto;
-	padding: 10px;
+	padding: 20px;
+	border-radius: 30px;
+}
+
+/*------------------ Election ------------------*/
+.electionContainer {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	width: 100%;
+}
+
+.electionText2 p,
+.electionText p {
+	padding: 0 20px;
+}
+
+.electionMap img,
+.electionMap2 img {
+	width: 43rem;
+	height: auto;
+	padding: 20px;
+	border-radius: 50px;
+}
+
+.electionButton {
+	color: white;
+}
+
+.electionContainer2 {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	width: 100%;
+}
+
+.pageContent2ElectionResults {
+	background-color: #660569;
+	margin: 5rem;
+	position: relative;
+	top: -43rem;
+	border-radius: 40px;
+}
+
+.electionText2 h1,
+.electionText h1 {
+	text-align: center;
+	padding: 20px;
+	color: white;
+	font-family: "Faux";
 }
