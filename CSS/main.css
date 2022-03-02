@@ -61,7 +61,8 @@
 	color: gray;
 }
 
-.pageContent2 {
+.pageContent2,
+.pageContent3 {
 	background-color: #660569;
 	margin: 5rem;
 	position: relative;
@@ -95,7 +96,7 @@
 }
 
 .historyText p {
-	padding: 30px;
+	padding: 0 20px;
 }
 
 .historyMap img {
@@ -126,8 +127,14 @@
 	border-radius: 50px;
 }
 
-.electionButton {
+.electionButtonOpen,
+.electionButtonClose {
 	color: white;
+	cursor: pointer;
+	position: relative;
+	right: -62%;
+	top: -10px;
+	width: 100%;
 }
 
 .electionContainer2 {
@@ -138,17 +145,64 @@
 }
 
 .pageContent2ElectionResults {
-	background-color: #660569;
-	margin: 5rem;
+	display: none;
 	position: relative;
+	margin: 5rem;
+	background-color: #660569;
 	top: -43rem;
 	border-radius: 40px;
+	transition: 500ms;
 }
 
 .electionText2 h1,
-.electionText h1 {
+.electionText h1,
+.oppositionText h1 {
 	text-align: center;
 	padding: 20px;
 	color: white;
 	font-family: "Faux";
+}
+
+/*------------- Oppossition ----------------*/
+.oppositionImages {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap-reverse;
+	text-align: center;
+	padding: 20px;
+	width: 65%;
+	color: white;
+}
+
+.oppositionContent img {
+	clip-path: circle(50% at 50% 50%);
+	width: 100px;
+	height: auto;
+}
+
+.oppositionContent {
+	padding: 8px;
+	transition: 500ms;
+}
+
+.oppositionContent:hover {
+	transform: scale(1.03);
+}
+
+.oppositionContainer {
+	display: flex;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	width: 100%;
+}
+
+.oppositionText {
+	padding: 30px;
+	width: 90%;
+}
+
+.titleText2 {
+	font-size: smaller;
+	color: rgb(145, 145, 145);
 }

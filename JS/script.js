@@ -31,7 +31,7 @@ function closeNavbar() {
 
 /*------------------- Scroll -------------------*/
 
-let scrollUp = window.pageYOffset;
+/*let scrollUp = window.pageYOffset;
 
 window.onscroll = function () {
     let scrollDown = window.pageYOffset;
@@ -48,10 +48,14 @@ window.onscroll = function () {
     }
 
     scrollUp = scrollDown;
-}
+}*/
 
 
 /*----------- Election ---------------*/
 function openElectionResults() {
-    document.getElementById("realFooter").style.bottom = "0%";
+    document.getElementById("pageContent2ElectionResults").style.display = "flex";
+}
+
+function closeElectionResults() {
+    document.getElementById("pageContent2ElectionResults").style.display = "none";
 }
