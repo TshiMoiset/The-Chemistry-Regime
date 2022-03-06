@@ -1,6 +1,6 @@
-.pageContent {
+/* .pageContent {
 	padding: 1rem 20px;
-}
+} */
 
 .heroImg {
 	min-height: 70vh;
@@ -21,7 +21,8 @@
 	font-family: "Faux";
 }
 
-.Image-Container {
+/*---------------- State members profile ------------------*/
+.stateContainer {
 	display: flex;
 	text-align: center;
 	position: relative;
@@ -32,23 +33,19 @@
 	background-color: white;
 }
 
-.Image-Container img {
+.stateContainer img {
 	clip-path: circle(50% at 50% 50%);
 	width: 55%;
 	height: auto;
 }
 
-.imageContent {
+.stateContent {
 	transition: 500ms;
+	cursor: pointer;
 }
 
-.imageContent:hover {
+.stateContent:hover {
 	transform: scale(1.03);
-}
-
-.imgText {
-	text-align: left;
-	margin: 1rem;
 }
 
 .titleText {
@@ -56,8 +53,9 @@
 	color: gray;
 }
 
-.pageContent2,
-.pageContent3 {
+/*---------------- History ------------------*/
+
+.pageContent2 {
 	background-color: #660569;
 	margin: 5rem;
 	position: relative;
