@@ -1,0 +1,28 @@
+footer {
+	font-family: "Faux";
+	background-color: #660569;
+	position: relative;
+	width: 100%;
+	transition: 500ms;
+	bottom: 0;
+	padding: 20px;
+}
+
+.footerContent {
+	display: flex;
+	background-color: #660569;
+	color: white;
+	font-family: "Faux";
+	text-align: center;
+	width: 100%;
+}
+
+.footerContent p {
+	padding: 5px;
+	text-align: center;
+}
+
+.footerLogo span {
+	font-family: "Faux";
+	font-weight: 600;
+}
