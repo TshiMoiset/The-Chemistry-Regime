@@ -53,11 +53,12 @@ window.onscroll = function () {
 
 /*----------- Election ---------------*/
 function openElectionResults() {
-    document.getElementById("pageContent2ElectionResults").style.display = "flex";
-    //document.getElementById("pageContent3").style.top = "-45rem";
+    document.getElementById("electionResults").style.display = "flex";
+    document.getElementById("election").style.display = "none";
+    
 }
 
 function closeElectionResults() {
-    document.getElementById("pageContent2ElectionResults").style.display = "none";
-//    document.getElementById("pageContent3").style.top = "-45rem";
+    document.getElementById("electionResults").style.display = "none";
+    document.getElementById("election").style.display = "flex";
 }

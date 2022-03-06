@@ -30,7 +30,7 @@
 						<div class="logo">
 							<li><a href="#top">The C/A Regime</a></li>
 						</div>
-						<li><a href="#" class="hoverLine">Opposition</a></li>
+						<li><a href="#opposition" class="hoverLine">Opposition</a></li>
 						<li><a href="#law" class="hoverLine">Laws</a></li>
 					</ul>
 				</nav>
@@ -59,7 +59,7 @@
 							<hr />
 							<li><a href="#election">Election</a></li>
 							<hr />
-							<li><a href="#">Opposition</a></li>
+							<li><a href="#opposition">Opposition</a></li>
 							<hr />
 							<li><a href="#law">Laws</a></li>
 							<hr />
@@ -72,7 +72,7 @@
 		<main>
 			<div class="heroImg">
 				<div class="heroImgText">
-					<h1>The Voice Of The People</h1>
+					<h1>You Are Being Watched</h1>
 				</div>
 			</div>
 
@@ -128,15 +128,16 @@
 				</div>
 			</div>
 
-			<div class="pageContent2" id="history">
-				<div class="history">
+			<div class="pageContent">
+				<nav id="historyPage"></nav>
+				<div class="history" id="history">
 					<div class="historyContainer">
-						<div class="historyText">
-							<h1>History</h1>
+						<div class="historyText text">
+							<h1 class="boxTitle">History</h1>
 							<p>
 								The history behind the chem regime is traced back to the 21st century. On August
 								19, 2021, changed the path for mankind. Earth A6 was ruled by chaos. Individuals
-								were lost and didn’t know the purpose of this earth's existence. Later on, 4
+								were lost and didn't know the purpose of this earth's existence. Later on, 4
 								sovereign states were established with a variety of political regimes. State A
 								in the west, E/C in the south, and F in the southwest. Our state C/A was founded
 								to the east of state A by our great leader in Moise Tshibwabwa (90% Swedish
@@ -162,13 +163,12 @@
 						</div>
 					</div>
 				</div>
-			</div>
 
-			<div class="pageContent2" id="election">
-				<div class="election">
+				<nav id="electionPage"></nav>
+				<div class="election" id="election">
 					<div class="electionContainer">
-						<div class="electionText">
-							<h1>Election</h1>
+						<div class="electionText text">
+							<h1 class="boxTitle">Election</h1>
 							<p>
 								Democracy is the basis of how our state should be governed. Mr. Sir Tshibwabwa
 								is the founder of our nation, therefore, he has obtained 50,8% of the mandate,
@@ -178,81 +178,84 @@
 								Tshibwabwa, Mr. Sir. (2022) The C/A Regime
 							</p>
 						</div>
-						<div class="electionMap">
+						<div class="electionImg electionImages">
 							<img src="SVG/DistributionOfSeats.svg" alt="DistributionOfSeats" />
-							<div class="electionButtonOpen" onclick="openElectionResults()">
+							<div class="electionButtonOpen electionButtons" onclick="openElectionResults()">
 								Click to see election results 2022
 							</div>
 						</div>
 					</div>
 				</div>
-			</div>
 
-			<div class="pageContent2ElectionResults" id="pageContent2ElectionResults">
-				<div class="electionContainer2">
-					<div class="electionText2">
-						<h1>Election results 2022</h1>
-						<p>
-							Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem illo excepturi
-							necessitatibus sequi possimus velit assumenda veniam praesentium voluptatibus
-						</p>
+				<div class="electionResults" id="electionResults">
+					<div class="electionResultsContainer">
+						<div class="electionResultsText text">
+							<h1 class="boxTitle">Election results 2022</h1>
+							<p>
+								Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem illo excepturi
+								necessitatibus sequi possimus velit assumenda veniam praesentium voluptatibus
+							</p>
+						</div>
+
+						<div class="electionResultsImg electionImages">
+							<img src="SVG/Electionresults2022.svg" alt="Electionresults2022" />
+							<div
+								class="electionButtonOpen electionButtons"
+								onclick="closeElectionResults()"
+							>
+								Click to close election results
+							</div>
+						</div>
 					</div>
+				</div>
 
-					<div class="electionMap2">
-						<img src="SVG/Electionresults2022.svg" alt="Electionresults2022" />
-						<div class="electionButtonOpen" onclick="closeElectionResults()">
-							Click to close election results
+				<nav id="oppositionPage"></nav>
+				<div class="opposition" id="opposition">
+					<div class="oppositionContainer">
+						<div class="oppositionText text">
+							<h1 class="boxTitle">Opposition</h1>
+							Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum maxime
+							voluptatem ab necessitatibus nesciunt odio distinctio doloremque autem optio,
+							nam, officia accusamus enim molestiae illo incidunt quasi, voluptas beatae
+							exercitationem recusandae molestias laboriosam. Assumenda libero adipisci
+							molestias exercitationem recusandae pariatur?
+						</div>
+						<div class="oppositionImages">
+							<div class="oppositionContent">
+								<figure class="figure3">
+									<img src="IMAGES/BlankProfilePicture.png" alt="Rahim Ahmed" />
+									<figcaption>Rahim Ahmed</figcaption>
+									<figcaption class="titleText2">Opposition Member</figcaption>
+								</figure>
+							</div>
+
+							<div class="oppositionContent">
+								<figure class="figure4">
+									<img src="IMAGES/BlankProfilePicture.png" alt="Jing - Xiang Xu" />
+									<figcaption>Jing X. Xu</figcaption>
+									<figcaption class="titleText2">Opposition Member</figcaption>
+								</figure>
+							</div>
+
+							<div class="oppositionContent">
+								<figure class="figure5">
+									<img src="IMAGES/BlankProfilePicture.png" alt="Max Appelberg Sawbridge" />
+									<figcaption>Max A. Sawbridge</figcaption>
+									<figcaption class="titleText2">Opposition Member</figcaption>
+								</figure>
+							</div>
+
+							<div class="oppositionContent">
+								<figure class="figure6">
+									<img src="IMAGES/BlankProfilePicture.png" alt="Amir Ismail" />
+									<figcaption>Amir Ismail</figcaption>
+									<figcaption class="titleText2">Opposition Leader</figcaption>
+								</figure>
+							</div>
 						</div>
 					</div>
 				</div>
 			</div>
-
-			<div class="pageContent3" id="pageContent3">
-				<div class="oppositionContainer">
-					<div class="oppositionText">
-						<h1>Opposition</h1>
-						Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum maxime
-						voluptatem ab necessitatibus nesciunt odio distinctio doloremque autem optio,
-						nam, officia accusamus enim molestiae illo incidunt quasi, voluptas beatae
-						exercitationem recusandae molestias laboriosam. Assumenda libero adipisci
-						molestias exercitationem recusandae pariatur?
-					</div>
-					<div class="oppositionImages">
-						<div class="oppositionContent">
-							<figure class="figure3">
-								<img src="IMAGES/BlankProfilePicture.png" alt="Rahim Ahmed" />
-								<figcaption>Rahim Ahmed</figcaption>
-								<figcaption class="titleText2">Opposition Member</figcaption>
-							</figure>
-						</div>
-
-						<div class="oppositionContent">
-							<figure class="figure4">
-								<img src="IMAGES/BlankProfilePicture.png" alt="Jing - Xiang Xu" />
-								<figcaption>Jing X. Xu</figcaption>
-								<figcaption class="titleText2">Opposition Member</figcaption>
-							</figure>
-						</div>
-
-						<div class="oppositionContent">
-							<figure class="figure5">
-								<img src="IMAGES/BlankProfilePicture.png" alt="Max Appelberg Sawbridge" />
-								<figcaption>Max A. Sawbridge</figcaption>
-								<figcaption class="titleText2">Opposition Member</figcaption>
-							</figure>
-						</div>
-
-						<div class="oppositionContent">
-							<figure class="figure6">
-								<img src="IMAGES/BlankProfilePicture.png" alt="Amir Ismail" />
-								<figcaption>Amir Ismail</figcaption>
-								<figcaption class="titleText2">Opposition Leader</figcaption>
-							</figure>
-						</div>
-					</div>
-				</div>
-			</div>
-
 			<div class="pageContent4" id="law"></div>
 		</main>
 	</body>

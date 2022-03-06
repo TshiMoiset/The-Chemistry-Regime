@@ -6,7 +6,7 @@ header {
 	position: fixed; /* Headers position kommer alltid att vara detsamma*/
 	transition: 400ms;
 	width: 100%;
-	z-index: 1; /* Allt i headern hamnar ovanför allt annat innehåll*/
+	z-index: 10000000000000000; /* Allt i headern hamnar ovanför allt annat innehåll*/
 	background-color: #30043d;
 	padding: 21px;
 }
