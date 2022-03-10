@@ -26,4 +26,19 @@
 		justify-content: space-between;
 		align-items: center;
 	}
+
+	.historyContainer,
+	.electionContainer,
+	.electionResultsContainer,
+	.oppositionContainer,
+	.lawsContainer {
+		flex-wrap: wrap;
+	}
+
+	.electionImages img {
+		width: 35rem;
+		height: auto;
+		padding: 20px;
+		border-radius: 50px;
+	}
 }

@@ -58,7 +58,8 @@
 .history,
 .election,
 .electionResults,
-.opposition {
+.opposition,
+.laws {
 	background-color: #660569;
 	margin: 3rem;
 	border-radius: 30px;
@@ -73,7 +74,8 @@
 .historyContainer,
 .electionContainer,
 .electionResultsContainer,
-.oppositionContainer {
+.oppositionContainer,
+.lawsContainer {
 	display: flex;
 	justify-content: space-evenly;
 	align-items: center;
@@ -165,8 +167,26 @@
 	color: rgb(145, 145, 145);
 }
 
-.pageContent4 {
-	background-color: #660569;
-	margin: 5rem;
-	border-radius: 40px;
+/*---------------------- Laws ----------------------*/
+
+.lawsContent img {
+	clip-path: circle(50% at 50% 50%);
+	width: 250px;
+	height: auto;
+}
+
+.lawsContent {
+	padding: 8px;
+	transition: 500ms;
+	text-align: center;
+	color: white;
+}
+
+.lawsContent:hover {
+	transform: scale(1.03);
+}
+
+.titleText2 {
+	font-size: smaller;
+	color: rgb(145, 145, 145);
 }
