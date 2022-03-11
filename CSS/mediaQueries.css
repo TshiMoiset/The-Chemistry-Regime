@@ -27,16 +27,25 @@
 		align-items: center;
 	}
 
-	.historyContainer,
-	.electionContainer,
-	.electionResultsContainer,
-	.oppositionContainer,
-	.lawsContainer {
+	.card {
 		flex-wrap: wrap;
 	}
 
 	.electionImages img {
 		width: 35rem;
+		height: auto;
+		padding: 20px;
+		border-radius: 50px;
+	}
+}
+
+@media screen and (max-width: 426px) {
+	.card {
+		flex-wrap: wrap;
+	}
+
+	.electionImages img {
+		width: 18rem;
 		height: auto;
 		padding: 20px;
 		border-radius: 50px;
