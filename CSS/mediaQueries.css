@@ -124,6 +124,10 @@
 		background-color: #660569;
 	}
 
+	footer {
+		position: fixed;
+	}
+
 	.yourPhoneSucks {
 		display: flex;
 		font-size: 20px;

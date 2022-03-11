@@ -1,7 +1,7 @@
 footer {
 	font-family: "Faux";
 	background-color: #30043d;
-	position: fixed;
+	position: relative;
 	width: 100%;
 	transition: 500ms;
 	bottom: 0;
