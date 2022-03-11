@@ -1,7 +1,7 @@
 footer {
 	font-family: "Faux";
-	background-color: #660569;
-	position: relative;
+	background-color: #30043d;
+	position: fixed;
 	width: 100%;
 	transition: 500ms;
 	bottom: 0;
@@ -10,7 +10,7 @@ footer {
 
 .footerContent {
 	display: flex;
-	background-color: #660569;
+	background-color: #30043d;
 	color: white;
 	font-family: "Faux";
 	text-align: center;

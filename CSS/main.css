@@ -55,11 +55,7 @@
 	margin-top: -7rem;
 }
 
-.history,
-.election,
-.electionResults,
-.opposition,
-.laws {
+.cardTitle {
 	background-color: #660569;
 	margin: 3rem;
 	border-radius: 30px;
@@ -96,13 +92,6 @@
 	letter-spacing: 1px;
 }
 
-.electionImages img {
-	width: 40rem;
-	height: auto;
-	padding: 20px;
-	border-radius: 50px;
-}
-
 /*---------------- History ------------------*/
 
 .historyMap img {
@@ -118,6 +107,13 @@
 	cursor: pointer;
 	float: right;
 	padding-right: 30px;
+}
+
+.electionImages img {
+	width: 40rem;
+	height: auto;
+	padding: 20px;
+	border-radius: 50px;
 }
 
 /*------------- Oppossition ----------------*/
@@ -185,4 +181,9 @@
 .titleText2 {
 	font-size: smaller;
 	color: rgb(145, 145, 145);
+}
+
+/*---------------------- Your phone sucks ---------------*/
+.yourPhoneSucks {
+	display: none;
 }
