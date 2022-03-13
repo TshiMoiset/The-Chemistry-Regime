@@ -159,6 +159,9 @@
 	color: rgb(175, 175, 175);
 }
 
+.hideOpContent {
+	display: none;
+}
 /*---------------------- Laws ----------------------*/
 
 .lawsContent img {
