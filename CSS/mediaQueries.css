@@ -116,7 +116,8 @@
 @media screen and (max-width: 321px) {
 	.pageContent,
 	.stateMember,
-	.heroImg {
+	.heroImg,
+	.cardTitle {
 		display: none;
 	}
 

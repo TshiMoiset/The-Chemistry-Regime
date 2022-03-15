@@ -190,3 +190,60 @@
 .yourPhoneSucks {
 	display: none;
 }
+
+/*------------------ Display none -------------------*/
+
+/*------------------------ Countdown ---------------------*/
+
+.countdown {
+	display: flex;
+	justify-content: space-evenly;
+	font-family: "Faux";
+	align-items: center;
+	top: 50%;
+	height: 100%;
+	width: 100%;
+}
+
+.countNumber {
+	padding: 20px 20px;
+	color: white;
+	background-color: #30043d;
+	text-align: center;
+	font-size: 25px;
+	font-family: "Faux";
+}
+
+.countdownDays,
+.countdownHours,
+.countdownMinutes,
+.countdownSeconds {
+	padding: 10px;
+	width: 100%;
+	letter-spacing: 0.75px;
+	font-family: "Faux";
+}
+
+.countdownText {
+	color: white;
+	background-color: #660569;
+	padding: 20px;
+	text-align: center;
+	font-family: "Faux";
+}
+
+.countdownContainer {
+	text-align: center;
+}
+
+.countdownContainer h1 {
+	color: white;
+	padding: 5px;
+}
+
+.timeCard {
+	position: relative;
+	top: 50%;
+	height: 100%;
+	padding: 20px;
+}
