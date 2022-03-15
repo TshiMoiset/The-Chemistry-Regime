@@ -200,8 +200,6 @@
 	justify-content: space-evenly;
 	font-family: "Faux";
 	align-items: center;
-	top: 50%;
-	height: 100%;
 	width: 100%;
 }
 
@@ -242,8 +240,5 @@
 }
 
 .timeCard {
-	position: relative;
-	top: 50%;
-	height: 100%;
 	padding: 20px;
 }
