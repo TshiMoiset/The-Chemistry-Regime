@@ -65,7 +65,7 @@ function closeElectionResults() {
 
 /*--------------------------- Countdown ----------------------------*/
 
-var countDate =  new Date('Mars 18, 2022 00:00:00').getTime();
+var countDate =  new Date('Mars 18, 2022 12:05:00').getTime();
 
 function newYear() {
     var now = new Date().getTime();
